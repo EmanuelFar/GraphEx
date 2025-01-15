@@ -60,7 +60,7 @@ int main() {
 }
 ```
 ## ** Pay Attention ! **
-The Main is set to read files as arguments, each file contains a <startPoint> /t<endPoint>/t<distance>.
+The Main is set to read files as arguments, each file contains a startPoint /t endPoint /t distance
 Also there's a config file that compiles and and runs a test with all Example files provided in infiles directory.
 
 ## How to Compile
