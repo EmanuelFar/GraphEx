@@ -49,7 +49,7 @@ private:
   std::vector<T> verticles;
   std::vector<std::vector<int>> edges;
   void traverseGraph(std::vector<bool> &isConnected,
-                     std::vector<std::vector<int>> &edgesDummy, int startIndex);
+                     std::vector<std::vector<int>> &edges, int startIndex);
   int *getStartEndIndexes(const T &startPoint, const T &endPoint) const;
   int getSingleIndex(const T &point) const;
 };
@@ -217,7 +217,7 @@ std::string Graph<T>::getAllLinkedVerticles(const T &startPoint) {
 
 template <typename T>
 void Graph<T>::traverseGraph(std::vector<bool> &isConnected,
-                             std::vector<std::vector<int>> &edgesDummy,
+                             std::vector<std::vector<int>> &edges,
                              int startIndex) {
   std::queue<int> q;
   q.push(startIndex);
