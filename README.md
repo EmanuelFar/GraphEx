@@ -95,14 +95,6 @@ g++ -std=c++11 -o graph Graph.h main.cpp
    ./graph
    ```
 
-## Future Improvements
-- Implement a depth-first traversal method.
-- Add support for weighted undirected graphs.
-- Optimize the adjacency matrix to use a sparse representation for large graphs.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
