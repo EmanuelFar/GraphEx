@@ -94,10 +94,3 @@ g++ -std=c++11 -o graph Graph.h main.cpp
    ```bash
    ./graph
    ```
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-## Contact
-For any questions or suggestions, feel free to contact me at **[your.email@example.com](mailto:your.email@example.com)**.
-
